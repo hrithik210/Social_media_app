@@ -40,6 +40,7 @@ export const SignupForm = () => {
         title: "Sign-up failed, please try again",
       });
     };
+  
 
   const session = await SigninAccount(
       {
@@ -64,7 +65,7 @@ export const SignupForm = () => {
       title: "Sign-up failed, please try again",
     });
   }
-
+  }
   return (
 
     <Form {...form}>
@@ -143,5 +144,5 @@ export const SignupForm = () => {
   );
 };
 
-};
+
 export default SignupForm ; 
